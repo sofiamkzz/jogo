@@ -1,0 +1,318 @@
+{
+  "javascript": {
+    "easy": [
+      {
+        "question": "Qual a função para imprimir no console em JavaScript?",
+        "options": ["console.log()", "print()", "echo", "alert()"],
+        "answer": "console.log()"
+      },
+      {
+        "question": "Como declarar uma variável em JavaScript?",
+        "options": ["var", "let", "const", "todas as opções"],
+        "answer": "todas as opções"
+      },
+      {
+        "question": "Como se escreve um comentário de uma linha em JavaScript?",
+        "options": ["// comentário", "/* comentário */", "# comentário", "<!-- comentário -->"],
+        "answer": "// comentário"
+      },
+      {
+        "question": "Qual a função para arredondar um número em JavaScript?",
+        "options": ["Math.floor()", "round()", "Math.round()", "Math.ceil()"],
+        "answer": "Math.round()"
+      },
+      {
+        "question": "Como fazer uma comparação de identidade em JavaScript?",
+        "options": ["==", "===", "=", "<>"],
+        "answer": "==="
+      },
+      {
+        "question": "Qual é o método utilizado para adicionar um item ao final de um array?",
+        "options": ["push()", "pop()", "shift()", "unshift()"],
+        "answer": "push()"
+      },
+      {
+        "question": "O que o comando 'alert()' faz em JavaScript?",
+        "options": ["Exibe uma caixa de diálogo", "Exibe um prompt para o usuário", "Imprime no console", "Armazena um valor em uma variável"],
+        "answer": "Exibe uma caixa de diálogo"
+      },
+      {
+        "question": "Qual é o valor de 'typeof null' em JavaScript?",
+        "options": ["object", "undefined", "null", "function"],
+        "answer": "object"
+      },
+      {
+        "question": "O que significa 'NaN' em JavaScript?",
+        "options": ["Not a Number", "Null and Negative", "Number not available", "No Answer Now"],
+        "answer": "Not a Number"
+      },
+      {
+        "question": "Qual é o operador para fazer concatenação de strings em JavaScript?",
+        "options": ["+", "-", "*", "/"],
+        "answer": "+"
+      }
+    ],
+    "medium": [
+      {
+        "question": "Qual o operador de comparação para igualdade estrita em JavaScript?",
+        "options": ["==", "===", "!=", "<>"],
+        "answer": "==="
+      },
+      {
+        "question": "O que significa o método 'map' em arrays em JavaScript?",
+        "options": ["Retorna um novo array", "Altera o array original", "Retorna o valor máximo", "Ordena o array"],
+        "answer": "Retorna um novo array"
+      },
+      {
+        "question": "Como declarar uma função em JavaScript?",
+        "options": ["function nome() {}", "function = nome {}", "var nome() {}", "func nome() {}"],
+        "answer": "function nome() {}"
+      },
+      {
+        "question": "O que faz a função 'setTimeout' em JavaScript?",
+        "options": ["Executa uma função após um tempo", "Cria uma nova variável", "Imprime um valor no console", "Cria um loop de execução"],
+        "answer": "Executa uma função após um tempo"
+      },
+      {
+        "question": "Qual a diferença entre 'let' e 'var' em JavaScript?",
+        "options": ["let tem escopo de bloco e var tem escopo de função", "não há diferença", "let é mais rápido", "var é mais moderno"],
+        "answer": "let tem escopo de bloco e var tem escopo de função"
+      },
+      {
+        "question": "Como você pode fazer um loop infinito em JavaScript?",
+        "options": ["while(true) {}", "for(;;) {}", "for(1) {}", "while(1) {}"],
+        "answer": "while(true) {}"
+      },
+      {
+        "question": "Qual é a função para transformar uma string em número inteiro em JavaScript?",
+        "options": ["parseInt()", "parseFloat()", "toNumber()", "toInt()"],
+        "answer": "parseInt()"
+      },
+      {
+        "question": "O que é uma Promise em JavaScript?",
+        "options": ["Um objeto que representa o valor eventual de uma operação assíncrona", "Uma função que retorna um valor", "Uma forma de criar loops", "Uma operação síncrona"],
+        "answer": "Um objeto que representa o valor eventual de uma operação assíncrona"
+      },
+      {
+        "question": "O que é o 'this' em JavaScript?",
+        "options": ["Se refere ao objeto atual", "É uma variável global", "É uma função", "É o valor final de uma operação"],
+        "answer": "Se refere ao objeto atual"
+      },
+      {
+        "question": "O que é o 'undefined' em JavaScript?",
+        "options": ["Uma variável declarada mas sem valor", "Um tipo de dado", "Uma função sem parâmetro", "Um erro no código"],
+        "answer": "Uma variável declarada mas sem valor"
+      }
+    ],
+    "hard": [
+      {
+        "question": "Como você cria uma Promise em JavaScript?",
+        "options": ["new Promise()", "Promise.create()", "create.Promise()", "new Promise.create()"],
+        "answer": "new Promise()"
+      },
+      {
+        "question": "Qual é a diferença entre 'bind', 'call' e 'apply' em JavaScript?",
+        "options": ["bind cria uma nova função, call e apply chamam imediatamente", "bind e call chamam imediatamente", "apply aceita um número fixo de parâmetros", "Não há diferença"],
+        "answer": "bind cria uma nova função, call e apply chamam imediatamente"
+      },
+      {
+        "question": "O que faz o método 'Object.freeze()' em JavaScript?",
+        "options": ["Impedir alterações no objeto", "Alterar a estrutura do objeto", "Clonar o objeto", "Permitir alterações somente em propriedades"],
+        "answer": "Impedir alterações no objeto"
+      },
+      {
+        "question": "O que é um closure em JavaScript?",
+        "options": ["Uma função que lembra seu contexto léxico", "Uma função assíncrona", "Uma função com erro", "Uma função que não recebe argumentos"],
+        "answer": "Uma função que lembra seu contexto léxico"
+      },
+      {
+        "question": "Qual é o método para verificar se um objeto é instância de uma classe em JavaScript?",
+        "options": ["instanceof", "isObject()", "typeof", "constructor"],
+        "answer": "instanceof"
+      },
+      {
+        "question": "O que é um callback em JavaScript?",
+        "options": ["Uma função passada como argumento para outra função", "Uma variável global", "Uma operação assíncrona", "Uma estrutura de controle"],
+        "answer": "Uma função passada como argumento para outra função"
+      },
+      {
+        "question": "Como você faz o tratamento de exceções em JavaScript?",
+        "options": ["try...catch", "throw...catch", "catch...finally", "try...finally"],
+        "answer": "try...catch"
+      },
+      {
+        "question": "Qual é a principal característica do ECMAScript 6 (ES6)?",
+        "options": ["Introdução do 'let' e 'const'", "Novos tipos de dados", "Novas funções", "Remoção do 'var'"],
+        "answer": "Introdução do 'let' e 'const'"
+      },
+      {
+        "question": "O que é o 'event loop' em JavaScript?",
+        "options": ["O ciclo que gerencia a execução de tarefas assíncronas", "Uma função que manipula eventos", "Uma operação que executa códigos", "Uma função que lida com promessas"],
+        "answer": "O ciclo que gerencia a execução de tarefas assíncronas"
+      },
+      {
+        "question": "Qual é o método usado para evitar modificações em um array?",
+        "options": ["Object.freeze()", "Array.protect()", "Array.disable()", "Array.lock()"],
+        "answer": "Object.freeze()"
+      }
+    ]
+  },
+  "python": {
+    "easy": [
+      {
+        "question": "Como declarar uma lista em Python?",
+        "options": ["[]", "()", "{}", "<>"],
+        "answer": "[]"
+      },
+      {
+        "question": "Qual é o comando para imprimir no console em Python?",
+        "options": ["print()", "echo()", "alert()", "console.log()"],
+        "answer": "print()"
+      },
+      {
+        "question": "Como declarar uma variável em Python?",
+        "options": ["var", "let", "const", "sem palavra-chave"],
+        "answer": "sem palavra-chave"
+      },
+      {
+        "question": "Como você cria um dicionário em Python?",
+        "options": ["{}", "[]", "()", "<>"],
+        "answer": "{}"
+      },
+      {
+        "question": "Qual a diferença entre lista e tupla em Python?",
+        "options": ["listas são mutáveis e tuplas não", "tuplas são mutáveis e listas não", "não há diferença", "tuplas não existem em Python"],
+        "answer": "listas são mutáveis e tuplas não"
+      },
+      {
+        "question": "Como você cria uma função em Python?",
+        "options": ["def nome():", "function nome():", "function = nome():", "var nome():"],
+        "answer": "def nome():"
+      },
+      {
+        "question": "Qual é o operador de soma em Python?",
+        "options": ["+", "-", "*", "/"],
+        "answer": "+"
+      },
+      {
+        "question": "Como você cria uma classe em Python?",
+        "options": ["class Nome:", "def Nome():", "var Nome:", "function Nome():"],
+        "answer": "class Nome:"
+      },
+      {
+        "question": "Qual é a diferença entre 'is' e '==' em Python?",
+        "options": ["'is' verifica a identidade do objeto, '==' verifica o valor", "'==' verifica a identidade do objeto, 'is' verifica o valor", "'is' e '==' são iguais", "Não existe '==' em Python"],
+        "answer": "'is' verifica a identidade do objeto, '==' verifica o valor"
+      },
+      {
+        "question": "Como se cria uma variável global em Python?",
+        "options": ["Com a palavra-chave 'global'", "Sem palavra-chave", "Com a palavra-chave 'let'", "Com a palavra-chave 'var'"],
+        "answer": "Com a palavra-chave 'global'"
+      }
+    ],
+    "medium": [
+      {
+        "question": "Qual é a diferença entre list e tuple em Python?",
+        "options": ["list é mutável e tuple não", "tuple é mutável e list não", "não há diferença", "tuple não existe em Python"],
+        "answer": "list é mutável e tuple não"
+      },
+      {
+        "question": "O que significa o 'yield' em Python?",
+        "options": ["Retorna um valor de uma função geradora", "Cria uma variável", "Altera um valor", "Define uma função"],
+        "answer": "Retorna um valor de uma função geradora"
+      },
+      {
+        "question": "Como se cria um arquivo em Python?",
+        "options": ["open('arquivo.txt', 'w')", "create('arquivo.txt')", "file('arquivo.txt', 'w')", "write('arquivo.txt')"],
+        "answer": "open('arquivo.txt', 'w')"
+      },
+      {
+        "question": "Qual é o método para encontrar o tamanho de uma lista?",
+        "options": ["len()", "size()", "length()", "count()"],
+        "answer": "len()"
+      },
+      {
+        "question": "Como verificar se um número é positivo em Python?",
+        "options": ["if num > 0:", "if num >= 0:", "if num != 0:", "if num < 0:"],
+        "answer": "if num > 0:"
+      },
+      {
+        "question": "Qual é o método para dividir uma string em Python?",
+        "options": ["split()", "divide()", "subsplit()", "break()"],
+        "answer": "split()"
+      },
+      {
+        "question": "Como fazer um loop sobre os itens de uma lista?",
+        "options": ["for item in lista:", "for lista as item:", "while item in lista:", "for item of lista:"],
+        "answer": "for item in lista:"
+      },
+      {
+        "question": "O que significa o 'import' em Python?",
+        "options": ["Importa um módulo", "Cria um novo arquivo", "Carrega um pacote", "Executa um arquivo"],
+        "answer": "Importa um módulo"
+      },
+      {
+        "question": "Qual o operador de divisão inteira em Python?",
+        "options": ["//", "/", "%", "<>"],
+        "answer": "//"
+      },
+      {
+        "question": "Qual é a função para converter uma string em inteiro em Python?",
+        "options": ["int()", "float()", "str()", "parseInt()"],
+        "answer": "int()"
+      }
+    ],
+    "hard": [
+      {
+        "question": "Como criar uma expressão lambda em Python?",
+        "options": ["lambda x: x+1", "function x() { return x+1 }", "def x(): return x+1", "x => x+1"],
+        "answer": "lambda x: x+1"
+      },
+      {
+        "question": "O que é um decorador em Python?",
+        "options": ["Uma função que modifica outra função", "Uma classe", "Uma expressão lambda", "Um operador"],
+        "answer": "Uma função que modifica outra função"
+      },
+      {
+        "question": "Qual é o conceito de 'context manager' em Python?",
+        "options": ["Uma maneira de gerenciar recursos como arquivos", "Uma classe", "Uma função anônima", "Uma estrutura de controle de fluxo"],
+        "answer": "Uma maneira de gerenciar recursos como arquivos"
+      },
+      {
+        "question": "O que é o 'GIL' em Python?",
+        "options": ["Global Interpreter Lock", "Global Index Loop", "Global Integer Library", "Global Interface Language"],
+        "answer": "Global Interpreter Lock"
+      },
+      {
+        "question": "O que faz o método 'os.system()' em Python?",
+        "options": ["Executa comandos do sistema operacional", "Cria um diretório", "Cria um arquivo", "Converte dados"],
+        "answer": "Executa comandos do sistema operacional"
+      },
+      {
+        "question": "O que significa a função 'super()' em Python?",
+        "options": ["Chama um método da classe pai", "Cria uma nova classe", "Define uma variável global", "Chama uma função dentro da própria classe"],
+        "answer": "Chama um método da classe pai"
+      },
+      {
+        "question": "O que é 'multithreading' em Python?",
+        "options": ["Execução simultânea de múltiplas threads", "Execução de múltiplos processos", "Execução de código assíncrono", "Execução sequencial de código"],
+        "answer": "Execução simultânea de múltiplas threads"
+      },
+      {
+        "question": "Qual é o método para ordenar uma lista em Python?",
+        "options": ["sort()", "order()", "arrange()", "sortBy()"],
+        "answer": "sort()"
+      },
+      {
+        "question": "Como você cria um arquivo de log em Python?",
+        "options": ["logging.basicConfig()", "createLog()", "log.create()", "writeLog()"],
+        "answer": "logging.basicConfig()"
+      },
+      {
+        "question": "O que é um 'byte' em Python?",
+        "options": ["Uma sequência de 8 bits", "Um tipo de dado", "Uma variável", "Um valor constante"],
+        "answer": "Uma sequência de 8 bits"
+      }
+    ]
+  }
+}
