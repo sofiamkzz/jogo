@@ -70,5 +70,5 @@ io.on('connection', (socket) => {
 
 // Iniciar o servidor
 server.listen(3000, () => {
-  console.log('Servidor rodando na porta 3000');
+  console.log('Servidor rodando: localhost:3000');
 });
