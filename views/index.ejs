@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz de Programação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bem-vindo ao Quiz de Programação</h1>
+  
+  <form id="nameForm">
+    <label for="name">Digite seu nome:</label>
+    <input type="text" id="name" required>
+    <button type="submit">Iniciar</button>
+  </form>
+
+  <div id="categorySelection" style="display:none;">
+    <h2>Escolha uma categoria:</h2>
+    <button id="jsBtn">JavaScript</button>
+    <button id="pythonBtn">Python</button>
+  </div>
+
+  <div id="difficultySelection" style="display:none;">
+    <h2>Escolha a dificuldade:</h2>
+    <button id="easyBtn">Fácil</button>
+    <button id="mediumBtn">Média</button>
+    <button id="hardBtn">Difícil</button>
+  </div>
+
+  <div id="quiz" style="display:none;">
+    <p id="question"></p>
+    <div id="options"></div>
+    <button id="nextBtn" style="display:none;">Próxima</button>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
